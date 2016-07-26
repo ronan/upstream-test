@@ -1,3 +1,10 @@
 api_version: 1
 
 web_docroot: true
+
+workflows:
+  deploy_product:
+    after:
+      - type: webphp
+        description: Hello world script
+        script: private/scripts/hello.php
