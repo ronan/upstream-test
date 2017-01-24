@@ -1,2 +1,2 @@
 # upstream-test
-A test upstream for Pantheon
+A test upstream for Pantheon.
